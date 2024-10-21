@@ -1,17 +1,14 @@
-import Link from "next/link";
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
+import Hero from "./components/hero/Hero";
 
 export default function HomePage () {
   return(
     <div>
-      <ul>
-        <li><Link href="/">Home </Link></li>
-        <li><Link href="/about">About </Link></li>
-        <li><Link href="/contact">Contact </Link></li>
-        <li><Link href="/service">Service </Link></li>
-        <li><Link href="/service/app-development">App-development</Link></li>
-        <li><Link href="/service/website-development">Website-development</Link></li>
-      </ul>
-     <h1>This is a home page</h1>
+      <Header></Header>
+      <Hero></Hero>
+      <h1>This is a home page</h1>
+     <Footer></Footer>
     </div>
   );
 }
