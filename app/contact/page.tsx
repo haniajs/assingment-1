@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-export default function HomePage () {
-  return(
-    <div>
+export default function ContactPage () {
+    return(
+      <div>
       <ul>
         <li><Link href="/">Home </Link></li>
         <li><Link href="/about">About </Link></li>
@@ -11,7 +11,7 @@ export default function HomePage () {
         <li><Link href="/service/app-development">App-development</Link></li>
         <li><Link href="/service/website-development">Website-development</Link></li>
       </ul>
-     <h1>This is a home page</h1>
-    </div>
-  );
-}
+       <h1>This is a contact page</h1>
+      </div>
+    );
+  }
